@@ -1,0 +1,1 @@
+user_confirmation_url(:confirmation_token => @token, locale: I18n.locale) %></p>
