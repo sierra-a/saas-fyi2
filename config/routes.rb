@@ -13,7 +13,7 @@ Rails.application.routes.draw do
 
   devise_for :users, :controllers => {
     #:registrations => "milia/registrations",
-    :registrations => "registrations",
+    :registrations => "milia/registrations",
     :confirmations => "confirmations",
     :sessions => "milia/sessions",
     :passwords => "milia/passwords",
