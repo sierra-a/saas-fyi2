@@ -6,7 +6,7 @@ class CreateMembers < ActiveRecord::Migration[5.1]
       t.string :first_name
       t.string :last_name
 
-      t.timestamps
+      t.timestamps null: false
     end
   end
 end
